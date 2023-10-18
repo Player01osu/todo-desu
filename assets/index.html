@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/api/v1/new-todo" method="get" style="display: flex">
+            <label for="todo"></label>
+            <textarea id="todo" name="todo" rows="300" cols="100">
+
+= TODO LIST =
+
+== DAILY TODO ==
+_(deleted daily)_
+- [ ] KMS: Get ink for pen
+- [ ] KMS: Reschedule shot
+- [ ] Ankift: Refer to variables
+- [ ] Ankift: Refer to cards
+- [ ] KMS: BUILD TWO FACT
+- [ ] KMS: TRNASFER CREDIT
+- [ ] KMS: Window
+- [ ] KMS: Hold piece
+- [ ] KMS: Wallkick
+- [ ] KMS: Cellular Automata Threaded
+- [ ] KMS: Netris to wasm
+- [ ] KMS: Choosenim XDG Base Dir
+- [ ] MTU: Get lockdown browser to work
+- [ ] CalcII: Notes for Trid IDs
+- [ ] Chem: Notes for the prefixes (meth, eth, ...)
+- [ ] MTU: Get printing to work
+- [ ] KMS: Check print service for TacoBell
+- [ ] KMS: C to Piet Compiler
+- [ ] KMS: Display states accordingly
+- [ ] KMS: Start Sneedbox
+- [ ] KMS: Click mined tile to open surrounding tiles
+- [ ] KMS: Implement always-winnable algorithm
+- [ ] KMS: Set mines and grid via cmd argument
+- [ ] KMS: Cheers songs cover
+- [ ] KMS: Proper flag icon for flags
+- [ ] KMS: Proper mine icon
+- [ ] KMS: Fix SDL2_TTF leak
+- [ ] KMS: Fix [[unexpected performance issue]]
+- [ ] Email: Vim plugin
+- [ ] KMS: Anki
+- [ ] KMS: Error function
+- [ ] KMS: Blacklist word
+- [X] Chem: Finish HW
+- [X] CS: Sorting Program
+- [X] CalcII: [[8.3 WebAssign]]
+- [X] CS: Fix quicksort
+- [X] CS: Analysis
+- [X] CS: Sorting Quiz
+- [X] CS: Email GTA about platform differences in browser lab
+- [X] Chem: Practice Exam
+- [X] Chem: HW
+- [X] CalcII: Review Volumes
+- [X] CalcII: Arc Length Webassign
+- [X] CS: Attend Thrilling Adventures 10/13 7:30
+- [X] Chem: HW
+- [X] CalcII: Start Surface Area Webassign
+- [X] CalcII: Finish Surface Area Webassign
+- [X] UN: First draft
+- [X] UN: Finish Bibliography
+- [X] Chem: Week 6 Review
+- [X] CS: Homework
+- [X] Chem: Check Webcam for exam
+- [X] CS: Finish Lab
+- [X] Chem: Print Lab
+- [X] CS: Contact Alum again
+- [X] CalcII: Review Arc Length and Surface Area
+- [X] Chem: Exam
+- [X] Chem: HW
+- [X] CalcII: EXAM TUESDAY FISHER 135 6:00
+- [X] Chem: Lab Quiz
+- [X] Chem: Exam retake
+- [X] Chem: Vespr bond notes
+
+=== Do Soon ===
+- [ ] KMS: [[Better logging for Word Tug]]
+- [ ] KMS: Think about [[Anki-Connect]] for AnkiC
+- [ ] KMS: Change postgres pass on vultr
+- [ ] KMS: Jumper plugin but using command line tab complete
+- [ ] KMS: Admin panel
+- [ ] KMS: [[Sub timing plugin]]
+- [ ] KMS: osu_bpm_changer: new_difficulty_path
+- [ ] Psych: College Board Practice
+- [ ] KMS: Start leptos project
+- [ ] Psych: [[Finish]] brain diagrams
+- [X] KMS: Netrw Long style is super broken
+- [X] Library: Return books
+- [X] Laptop: Return
+
+=== Would Like Done ===
+- [ ] mpd-discord-rpc: Local album art
+- [ ] Compiler: Cool Compiler
+- [ ] Anki: [[Anki_FT_Compiler]]
+- [ ] Shell: Watch me
+- [ ] NVLIME: [[Yep]]
+- [ ] Picard: [[Music Tagger]]
+- [ ] Mullvad: Better vpn?
+- [ ] Prod: [[Fix calibri font]]
+- [ ] JP: [[Translate]]
+- [ ] Prod: Fix [[toggle_touch]]
+- [ ] Prod: Implement Map-Reduce
+- [ ] Track-Desu: Config File
+- [ ] Mpv: Clipping
+- [ ] Tor: Z-library
+- [ ] Sani: [[Gui]]
+- [ ] Discord Bot: [[Start me!]]
+- [ ] C-Build Tool: Start me!
+- [ ] Nvim: Fix truncate on bar
+- [ ] LTU: chammond@ltu.edu
+- [ ] Prod: [[Full System Backup]]
+- [ ] Prod: [[Order Screen Parts]]
+- [ ] Dots: Sync scripts
+- [ ] App: [[Rust library Android Studio]]
+- [ ] Zig: Guessing game
+- [ ] Math: Pascal Triangle
+- [ ] Yuri Web Server: Postgres
+- [ ] Prod: [[VST in rust]]
+- [ ] School: [[Scholarships]]
+- [ ] Prod: [[Zero-to-Production]] rust
+- [ ] WM: Begin wayland [[window-manager]]
+- [ ] Sani: Refactor this shit
+- [ ] Rupl: Begin work on Rust Repl
+- [ ] Git: Git repo hosting
+- [ ] Data: SAS Expansion Card
+- [ ] School: [[Canvas API]]
+- [ ] Forum: Multipart macro
+- [ ] Ravioli Coin: [[Ravioli Coin]]
+- [ ] Math: Series Expansion
+- [ ] Mathematics: [[Techniques Of Integration]]
+- [ ] Yuri Web Server: [[Yuri Web Stuff]]
+- [ ] Productivity: [[Lobster]] (Terminal Movie Scraper)
+- [ ] Project: Native powermenu
+- [ ] DWM: [[Actual seperation]]
+- [ ] DWM: Fix layout icons not showing
+- [ ] DWM: Pretty rounded bar
+- [ ] Productivity: Fix dwm cycle tag on scratchpad
+- [ ] Productivity: VimWiki Graph
+- [ ] Windows Debloat: Add more to README
+- [ ] School: Create personal email
+- [ ] Productivity: Disable shift layer keym
+- [ ] Productivity: Project jump script show project name and language
+- [ ] Productivity: X11 scrollwheel emulation
+- [ ] Touhou
+- [ ] [[anime|Anime]]
+- [ ] Yuri
+- [X] School: [[CSS Profile]]
+
+== SCHOOL ==
+
+=== WORKING ON: ===
+- [ ] instructables
+- [ ] *create seperate email for college*
+
+=== COMPLETED: ===
+- [X] college stuffs
+- [X] junior parent financial aid night wed. march 16th 7pm
+- [X] ACT TEST JUNE 11th
+- [X] BLOOMFIELD HIGH 8AM
+- [X] Driving exam 06/22/2022 7:15 pm (WBHS)
+- [X] ap world project due June 9th
+- [X] schedule drives
+- [X] lit test friday
+- [X] SAT 4/13/22 11th grader
+- [X] spanish hw
+- [X] ENG 3 solvethon showcase april 8th for glovebox april 12th for water
+- [X] EMPATHY EMPATHY EMPATHY EMPATHY
+- [X] Document fully design process
+- [X] pg 343 # 1-19 odds
+- [X] 1-9 integrate
+- [X] 11-19 initial value
+- [X] phys pres
+- [X] lit vocab story
+- [X] talk to hamilton bout calc 3
+- [X] math hw pg305 19-30
+- [X] noredink
+- [X] anki cards
+- [X] anti-derivs
+- [X] analysis of extrema
+- [X] Implicit Deriv
+- [X] Sphere Formulas
+- [X] Cone Formula
+- [X] vocab story
+- [X] MEET W/ ESSIG 1:00 Wednesday MARCH 9TH
+- [X] act4 doll house due friday
+- [X] track meeting monday the 14th
+- [X] doll house test friday 11/3
+- [X] ACT SIGNUP BY FEB 25
+- [X] math hw PG 283-285 #5, 1-6, 18, 19, 23
+- [X] probing questions turn in
+- [X] math hw due monday
+- [X] dollhouse questions
+- [X] 1-3, 9-12, rec themes 1-4
+- [X] chipotle interview? friday 4pm
+- [X] work permit
+- [X] social security
+- [X] id
+- [X] lit act 3 end thoughts
+- [X] finish lit character analy
+- [X] questions for essig
+- [X] NHS meeting feb 29
+- [X] *MATH TEST MONDAY*
+- [X] math hw
+- [X] spanish vocab one section due friday 2/25
+- [X] lit ending section
+- [X] math hw
+- [X] int programming animation proj
+- [X] spanish test (Delayed due to snowday 02/18)
+- [X] Math hw optimization ws 6,8,12,13 (02/24 wednesday)
+- [X] CALL CHIPOTLE BACK (402)-935-7733 (false alarm)
+- [X] physics pres xc skiing (02/17)
+- [X] whap ap classroom unit 6
+- [X] whap test unit 6 (02/17)
+- [X] Eng3 hw
+- [X] Multipart
+- [X] Assembly
+- [X] Multiview Drawing
+- [X] calc hw, abel retiring
+- [X] apush music thing, ap classroom
+- [X] windmill project
+- [X] eng stuff
+- [X] Set time, come in earlier Thursday, Friday, Saturday, Free Monday
+- Thursday 4-8 (4 hrs), Friday 4-8 (4 hrs), Saturday 12-7 (7 hrs): 15 hrs total compared to 13.5
+- Monday Free
+- [X] Math anki cards
+- expoentials
+- logs
+- [X] WHAP hw
+- [X] Math hw
+- [X] WHAP socratic seminar and dbq
+- [X] Study spanish words
+- [X] Math hw pg 229 21-24
+- [X] Finish physics project
+- [X] Math test like, monday (might retake, monday 02/14)
+- [X] Physics test (monday) (might test correction)
+- [X] English vocab (ez)
+- [X] eng 3 game design pres
+- [X] relate to engineering
+- [X] add more shit
+- [X] math hw
+- [X] math retake (02/14)
+- [X] Finish schedule google form!!!!!!
+- [X] schedule counselor meeting about act, sat, college
+- [X] math hw optimization (02/16 morning)
+- [X] *PRINT PICTURES JONATHAN (02/15)*
+- [X] whap unit 6 outline (02/16)
+
+== CODE ==
+- [X] cs50 comp sci course
+- [X] The C Programming Language
+- [.] learn languages
+- [ ] C#
+- [ ] java
+- [ ] C++
+- [X] rust
+
+=== WORKING ON: ===
+- [ ] SHA256 GENERATOR (c) (1/27/22 -
+
+=== NEED TO START: ===
+- [ ] Tic Tac Toe
+
+=== FINISHED (CONT. DEVELOPEMENT): ===
+- Pass generator (c) (1/20/22 - 1/23/22) (Medium)
+- [ ] condense code
+- gpa calc (c) (2/28/22 - 3/7/22) (Medium)
+
+=== FINISHED (DEPRICATED): ===
+- [ ] Encrypt Game (c) (1/25/22 - Prob never)
+- [X] Rewriting rps (c) (2/25/22 - 2/25/22) (Easy)
+- rock paper scissors (c) (1/17/22 - 1/18/22) (Medium)
+- [X] for loops
+
+=== OTHER NOTES: ===
+- [ ] order timing belt for ender 3 (current one too short)
+- [ ] [[conceptual]]
+- [ ] [[musical-bangers]]
+- [ ] [[think]]
+- [ ] [[dump]]
+
+
+
+
+
+
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
